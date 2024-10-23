@@ -45,3 +45,26 @@ $gradient-bottom-right: linear-gradient(135deg, #512d38ff, #b27092ff, #f4bfdbff,
 $gradient-top-left: linear-gradient(225deg, #512d38ff, #b27092ff, #f4bfdbff, #ffe9f3ff, #87baabff);
 $gradient-bottom-left: linear-gradient(315deg, #512d38ff, #b27092ff, #f4bfdbff, #ffe9f3ff, #87baabff);
 $gradient-radial: radial-gradient(#512d38ff, #b27092ff, #f4bfdbff, #ffe9f3ff, #87baabff);
+
+// Primary Colors
+$primary-color: #d35400;
+$secondary-color: #f39c12;
+
+// Neutral Colors
+$background-color: #f8e8e8;
+$text-color: #333333;
+
+// Accent Colors
+$accent-color-1: #e74c3c;
+$accent-color-2: #3498db;
+
+// Shades and Tints
+$primary-light: lighten($primary-color, 15%);
+$primary-dark: darken($primary-color, 15%);
+$secondary-light: lighten($secondary-color, 15%);
+$secondary-dark: darken($secondary-color, 15%);
+
+// Functional Colors
+$success-color: #2ecc71;
+$error-color: #e74c3c;
+$warning-color: #f1c40f;

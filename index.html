@@ -3,25 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Munamii Cakery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      
-    <h1>Welcome to our Bakery</h1>
-    <!-- HOME PAGE TEXT -->
-    <p>Hi! Welcome to Munamii Cakery! We offer you the most 
-    delicious cakes and cupcakes for all kinds of events 
-    and celebrations. Browse around to discover what you would like to buy.</p>
- 
-    
-        <img width="10%" height="10%" src="logo.png" alt="Wedding Cake & Cupcakes Logotype">
- 
-<div class="links">
-    <a href="products.html">Products</a>
-    <a href="contact.html">Contact Us</a>
-    <a href="about.html">About Us</a>
-    <a href="emailform.html">Email Form</a>
-</div>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img class="logo" src="logo.png" alt="Munamii Cakery Logo">
+                <h1>Munamii Cakery</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="emailform.html">Email Form</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main class="container">
+ 
+        <section class="welcome">
+            <h2>Welcome to our Bakery</h2>
+            <p>Hi! Welcome to Munamii Cakery! We offer you the most delicious cakes and cupcakes for all kinds of events and celebrations. Browse around to discover what you would like to buy.</p>
+        </section>
+        <section class="large-logo">
+            <h1 class="large-logotype">Munamii Cakery</h1>
+            <img src="logo.png" alt="Munamii Cakery Large Logo" class="large-logo-image">
+        </section>
+
+        
+
+
+        <!-- Add more sections as needed -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2023 Munamii Cakery. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/munamiicakery/" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/p/munamiicakery-100068077487468/" target="_blank">Facebook</a>
+                        <a href="mailto:info@munamiicakery.com">Email</a>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <form action="#" method="post" class="subscribe-form">
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
