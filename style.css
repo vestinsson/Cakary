@@ -19,12 +19,12 @@ h1 {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poiret One', cursive; /* Use Poiret One font */
+    background-color: #f4f4f4; /* Light background for the page */
+    color: #333; /* Dark text color */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: var(--text-color);
-    background-color: var(--background-light);
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -355,4 +355,84 @@ footer {
 .cupcake-item:hover img {
     transform: scale(1.1);
     border-radius: 50%; /* This maintains the circular shape on hover */
+}
+
+.email-form {
+    max-width: 500px; /* Set a maximum width for the form */
+    margin: 40px auto; /* Center the form with margin */
+    padding: 30px; /* Add padding around the form */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.email-form:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.email-form h1 {
+    text-align: center; /* Center the heading */
+    color: #4CAF50; /* Green color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.email-form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+    color: #555; /* Darker label color */
+}
+
+.email-form input,
+.email-form textarea {
+    width: 100%; /* Full width for inputs and textarea */
+    padding: 12px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size for inputs */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.email-form textarea {
+    height: 200px; /* Increased height for the textarea */
+}
+
+.email-form input:focus,
+.email-form textarea:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.email-form button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+    width: 100%; /* Full width for button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.email-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Ensure each component is on a new line */
+.email-form label,
+.email-form input,
+.email-form textarea,
+.email-form button {
+    display: block; /* Force each component to be a block element */
+    margin-bottom: 15px; /* Space between components */
+}
+
+.centered-header {
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some space above and below the header */
+    color: #4CAF50; /* Optional: Change the color to match your theme */
+    font-size: 2rem; /* Optional: Adjust the font size */
 }
